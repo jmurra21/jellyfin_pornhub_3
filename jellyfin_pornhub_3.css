@@ -1,0 +1,44 @@
+/* Pornhub-style Jellyfin theme */
+:root {
+  --theme-primary: #f90;
+  --theme-secondary: #111;
+  --background-color: #000;
+  --text-color: #fff;
+  --link-color: #f90;
+  --button-primary-background: #f90;
+  --button-primary-color: #000;
+}
+
+/* General background and text */
+body, .page {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Header and Navigation */
+.header, .mainDrawer {
+  background-color: var(--theme-secondary) !important;
+}
+
+.navMenuOption {
+  color: var(--text-color) !important;
+}
+
+.navMenuOption:hover {
+  background-color: var(--theme-primary) !important;
+  color: var(--button-primary-color) !important;
+}
+
+/* Buttons */
+.button-flat, .emby-button {
+  background-color: var(--button-primary-background) !important;
+  color: var(--button-primary-color) !important;
+}
+
+/* Accent items like progress bars */
+.progressbar-bg {
+  background-color: #333 !important;
+}
+.progressbar-value {
+  background-color: var(--theme-primary) !important;
+}
